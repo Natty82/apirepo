@@ -4,7 +4,7 @@ info:
   version: 1.0.0
   title: Demo XML APIs
 paths:
-  /v1/migration/poc/xml:
+  /v1/apim/poc/xml:
     get:
       summary: Demo GET API Flow
       operationId: DemoXMLGETRoute
@@ -12,7 +12,7 @@ paths:
       responses:
         '200':
           description: Success
-  /v1/migration/poc2/xml:
+  /v1/apim/poc2/xml:
     get:
       summary: Demo GET API Flow
       operationId: DemoXMLGETRoutePOC
