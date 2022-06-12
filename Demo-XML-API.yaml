@@ -1,6 +1,6 @@
 openapi: 3.0.0
 info:
-  description: Demo YAML Spec File.
+  description: Demo YAML Spec File for Testing.
   version: 1.0.0
   title: Demo XML APIs
 paths:
