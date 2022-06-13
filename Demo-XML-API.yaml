@@ -4,7 +4,7 @@ info:
   version: 1.0.0
   title: Demo XML APIs
 paths:
-  /v1/migration/poc/xml:
+  /v1/apim/poc/xml:
     get:
       summary: Demo GET API Flow
       operationId: DemoXMLGETRoute
