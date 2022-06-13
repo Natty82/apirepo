@@ -1,10 +1,10 @@
 openapi: 3.0.0
 info:
-  description: Demo YAML Spec File for Testing.
+  description: Demo YAML Spec File for API Testing.
   version: 1.0.0
   title: Demo XML APIs
 paths:
-  /v1/apim/poc/xml:
+  /v1/migration/poc/xml:
     get:
       summary: Demo GET API Flow
       operationId: DemoXMLGETRoute
