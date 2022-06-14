@@ -1,0 +1,39 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "description": "Demo JSON Spec File",
+    "version": "1.0.0",
+    "title": "Demo JSON APIs"
+  },
+  "paths": {
+    "/v1/apim/poc1/json": {
+      "get": {
+        "summary": "Demo JSON GET API Flow",
+        "operationId": "DemoJSONGETRoute",
+        "description": "Demo JSON GET API",
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v1/apim/poc2/json": {
+      "get": {
+        "summary": "Demo JSON GET API Flow",
+        "operationId": "DemoJSONRoutePOC",
+        "description": "Demo JSON GET API",
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    }
+  },
+  "servers": [
+    {
+      "url": "http://mocktarget.apigee.net/json"
+    }
+  ]
+}
